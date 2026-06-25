@@ -1,7 +1,18 @@
 # Climate-Adaptive-Smart-Crop-Monitoring-and-Automatic-Irrigation-System-using-STM32-Microcontroller
 
-This project implements a smart climate-adaptive crop monitoring system using the STM32 Nucleo-F401RE microcontroller. The system continuously monitors environmental conditions such as temperature, humidity, and soil moisture, predicts crop disease risk, and automatically controls irrigation using interrupt-driven logic.
-The system uses I2C-based environmental sensing, interrupt-driven irrigation control, and disease risk prediction to automate crop monitoring and watering.
+- This project implements a smart climate-adaptive crop monitoring system using the STM32 Nucleo-F401RE microcontroller. The system continuously monitors environmental conditions such as temperature, humidity, and soil moisture, predicts crop disease risk, and automatically controls irrigation using interrupt-driven logic.
+- The system uses I2C-based environmental sensing, interrupt-driven irrigation control, and disease risk prediction to automate crop monitoring and watering.
+
+## Features
+
+- Real-time temperature monitoring using HTU21D
+- Real-time humidity monitoring using HTU21D
+- Soil moisture detection using external interrupt (EXTI)
+- Automatic irrigation control using relay
+- Disease risk prediction based on environmental conditions
+- UART-based live monitoring
+- Buzzer alert for high disease-risk conditions
+- Timer-based periodic sensor sampling
 
 ## Working Principle
 
