@@ -5,10 +5,10 @@ The system uses I2C-based environmental sensing, interrupt-driven irrigation con
 
 ## Working Principle
 
--TIM2 generates an interrupt every 1 second.
--STM32 reads temperature and humidity data from HTU21D via I2C.
--Soil moisture sensor generates an EXTI interrupt whenever soil condition changes.
--If soil becomes dry, irrigation pump is turned ON.
--If soil becomes wet, irrigation pump is turned OFF.
--Disease risk is evaluated based on environmental conditions.
--Sensor data and system status are displayed on the UART terminal.
+- TIM2 generates an interrupt every 1 second.
+- STM32 reads temperature and humidity data from HTU21D via I2C.
+- Soil moisture sensor generates an EXTI interrupt whenever soil condition changes.
+- If soil becomes dry, irrigation pump is turned ON.
+- If soil becomes wet, irrigation pump is turned OFF.
+- Disease risk is evaluated based on environmental conditions.
+- Sensor data and system status are displayed on the UART terminal.
