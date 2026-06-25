@@ -1,0 +1,5 @@
+Successful I2C communication with HTU21D sensor.
+Real-time soil moisture detection using EXTI interrupts.
+Automatic relay control for irrigation.
+Disease-risk alert generation using buzzer.
+Continuous UART monitoring.
